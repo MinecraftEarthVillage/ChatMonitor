@@ -1,15 +1,6 @@
-name: ChatMonitor
-version: '${project.version}'
-main: top.earthvillage.chatmonitor.ChatMonitor
-api-version: '1.20'
 
 #调试模式：当你触发关键词会同时告诉你触发的是哪个
 debug: false
-commands:
-  reloadchatmonitor:
-    description: 重新加载ChatMonitor插件配置
-    usage: /reloadchatmonitor
-    permission-message: "§c你没有权限使用这个指令。"
 
 关键词指令映射:
 #badword理论上可以用所有字符替换，换成你的触发关键词
